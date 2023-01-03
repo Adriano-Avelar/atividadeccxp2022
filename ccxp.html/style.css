@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    
+}
+header {
+    background-color: rgb(0, 102, 149);
+    height: 118px;
+}
+header img {   
+    margin: 2%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 50px;
+    color:#F3C61F;
+}
+h3 {
+    font-size: 20px;
+    color: white;
+}
+.texto {
+    background-color: #514988;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 45%;
+    margin-left: -1.7%;
+}
+.logo {
+    width: 50%;
+}
+.logo video {
+    width: 100%;
+    height: 80%;    
+    margin-bottom: 2%;    
+}
+#images {
+    margin-left: 5%;
+}
+#titu {
+    color: #F3C61F;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    font-size: 27px;
+}
+.containera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.containera img {
+    margin-left: -5%;
+
+}
+#label {
+    color: #E33881;
+    font-size: 20px;
+    height: 36px;
+    margin-left: 5%;        
+}
+.crono {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Verdana';
+}
+#dias{    
+    color: #514988;
+    font-weight: 700;
+    font-size: 70px;
+
+}
+#horas{      
+    color: #514988;
+    font-weight: 700;
+    font-size: 70px;
+}
+#minutos{
+    color: #514988;  
+    font-weight: 700;
+    font-size: 70px;
+}
+#segundos{   
+    color: #514988;   
+    font-weight: 700;
+    font-size: 70px;
+}
+button {
+    height: 118px;
+    border-radius: 10px;
+    background-color: #514988;
+    color: white;
+    font-size: 28px;
+    margin-top: 10%;
+    margin-left: -20%;
+    border: none;
+    width: 430px;
+}
+button:hover {
+    background-color: #F3C61F;
+}
